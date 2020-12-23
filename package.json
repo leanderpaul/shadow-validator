@@ -1,0 +1,34 @@
+{
+  "name": "shadow-validator",
+  "version": "1.0.0",
+  "description": "A JSON Schema validator for request and object",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leanderpaul/shadow-validator.git"
+  },
+  "keywords": [
+    "shadow",
+    "json",
+    "validator",
+    "request-validator"
+  ],
+  "author": "Shadow Lord",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leanderpaul/shadow-validator/issues"
+  },
+  "homepage": "https://github.com/leanderpaul/shadow-validator#readme",
+  "dependencies": {
+    "ajv": "^7.0.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.9",
+    "mocha": "^8.2.1",
+    "typescript": "^4.1.3"
+  }
+}
